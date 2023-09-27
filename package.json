@@ -1,0 +1,31 @@
+{
+    "name": "discord-uptime-bot",
+    "version": "1.0.0",
+    "description": "[EN]A Discord Bot that keeps the URLs saved in the database awake. [TR]Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["discord", "bot"],
+    "author": "Metehan Şenyer",
+    "license": "MIT",
+    "dependencies": {
+      "@discordjs/rest": "^2.0.1",
+      "@replit/node-fetch": "^3.1.0",
+      "@types/node": "^18.0.6",
+      "discord-api-types": "^0.37.54",
+      "discord.js": "^14.13.0",
+      "dotenv": "^16.3.1",
+      "http-proxy": "^1.18.1",
+      "moment": "^2.29.4",
+      "mongoose": "^7.4.3",
+      "util": "^0.12.5"
+    },
+    "engines": {
+      "node": "16.x"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/metehansenyer/Discord-Uptime-Bot.git"
+    }
+  }
