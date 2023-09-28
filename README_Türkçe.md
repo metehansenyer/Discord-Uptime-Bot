@@ -47,6 +47,13 @@ Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
   ```
   Anahtarınızı not edin, lazım olacak.
 
+### Replit veya eski adıyla Repl.it
+
+- Tekrar aynı başlangıcı yapacağız. Botu çalıştırmak için bir [Replit](https://replit.com/signup) hesabına ihtiyacınız var. Hesabı açarken karşınıza bir takım sorular çıkacaktır, onları kendinize uygun şekilde doldurunuz. Daha sonra aşağıdaki adımları izleyiniz.
+
+  ![Aşama 1]()![Aşama 2]()
+- İlk
+
 ## Kullanım
 
 | Komut | Tip     | Açıklama                |
