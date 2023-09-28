@@ -51,9 +51,54 @@ Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
 
 - Tekrar aynı başlangıcı yapacağız. Botu çalıştırmak için bir [Replit](https://replit.com/signup) hesabına ihtiyacınız var. Hesabı açarken karşınıza bir takım sorular çıkacaktır, onları kendinize uygun şekilde doldurunuz. Daha sonra aşağıdaki adımları izleyiniz.
 
-  ![Aşama 1]()![Aşama 2]()
-- İlk
+  ![Aşama 1](https://media.discordapp.net/attachments/851228914848366602/1157084001119510640/replit_1.png?ex=651751f3&is=65160073&hm=eec3fe449ee728c891a90dd7cc03433717f025763b010e4a203d99cb5aaffa1b&=&width=945&height=468)![Aşama 2](https://media.discordapp.net/attachments/851228914848366602/1157084001987739679/replit_2.png?ex=651751f3&is=65160073&hm=9ec4d344bb705e27ca5fdc0aa1c852c39c1204ddf8f124f51891b10dd5c6dcd7&=&width=945&height=468)![Aşama 3](https://media.discordapp.net/attachments/851228914848366602/1157084001400537159/replit_3.png?ex=651751f3&is=65160073&hm=c8d427083255a52923c6143d14dabb4774ba4943ecdded4a961ae62f288ab2de&=&width=945&height=468)
+- İlk 2 görseldeki aşamaları takip ettiğinizde son görsele ulaşacaksınız. Son görseldeki GitHub URL kısmını doldurmalıyız. [Bu URL](https://github.com/metehansenyer/Discord-Uptime-Bot.git)'ye sağ tık yapıp kopyalın ve ilgili kısma yapıştırın. Daha sonra **Import from GitHub** butonuna basıp devam edin.
+  
+  ![Aşama 4](https://media.discordapp.net/attachments/851228914848366602/1157084002260373504/replit_4.png?ex=651751f3&is=65160073&hm=9c5633125d92b43241d2c9ed364f5fe4f7444965d8fa4c8deabb404e6112ad1a&=&width=945&height=468)![Aşama 5](https://media.discordapp.net/attachments/851228914848366602/1157084001685741608/replit_5.png?ex=651751f3&is=65160073&hm=500b10baedcf69a533ebe976e419e19ba1bba55286306cead33495349e6b159c&=&width=945&height=468)
+- *npm run start* olan kutucuğun içini silip yerine **"node index.js"** yazın ve **Done** butonuna basın.
 
+  ![Aşama 6](https://media.discordapp.net/attachments/851228914848366602/1157084002629468210/replit_6.png?ex=651751f3&is=65160073&hm=2538aad32f8ac9b5938b3f6dd2058455d2fb2f5597ecb31ab237e78eefc4fa00&=&width=945&height=468)
+- Bu noktada direkt **Run** butonuna basarsanız sağ altta göreceğiniz hatayla karşılaşacaksınız. Hataya göz atıp bir şeylerin eksik olduğunu anlayabilirsiniz, hadi bu sorunu çözelim.
+
+  ![Aşama 7](https://media.discordapp.net/attachments/851228914848366602/1157094787019718778/replit_7.png?ex=65175bff&is=65160a7f&hm=774f964285b4b165fbdbb3cee179de6dc802ab7645b9a145178a220c0dab41dd&=&width=945&height=468)![Aşama 8](https://media.discordapp.net/attachments/851228914848366602/1157094787330101290/replit_8.png?ex=65175bff&is=65160a7f&hm=9a507f47581ff46e854b71299386e709c4567f238fd829ae9494907d21ab08bd&=&width=945&height=468)![Aşama 9](https://media.discordapp.net/attachments/851228914848366602/1157096279294361621/replit_9.png?ex=65175d62&is=65160be2&hm=5a2df6dfec7a703a6bef9ae70040948651ee96eb54ff1760674e4f45b5550984&=&width=945&height=468)
+- Son fotoğrafta okla gösterilen yeri, aşağıda verdiğim JSON kodundaki ilgili yerleri önceki aşamalarda not ettiğiniz verilerle değiştirip doldurunuz.
+  ```JSON
+  {
+   "PROJECT_NAME": "REPLIT_PROJE_İSMİNİZ",
+  
+   "APP_ID": "DİSCORD_BOT_APPLICATION_ID",
+   "TOKEN": "DİSCORD_BOT_ANAHTARI",
+   "MONGODB_TOKEN": "MONG0DB_ANAHTARI",
+
+   "OWNER": "YOUR_DISCORD_ID",
+   "SUPPORT_SERVER": "DISCORD_SERVER_ID",
+   "SUPPORT_INVITE": "DISCORD_SERVER_DAVETİ",
+   "UPTİME_CHANNEL": "DISCORD_SERVER_CHANNEL_ID",
+
+   "DEVELOPMENT": "true",
+   "THEME_COLOR": "4ca74c",
+  }
+  ```
+  Örnek:
+  ```JSON
+  {
+   "PROJECT_NAME": "Discord-Uptime-Bot",
+  
+   "APP_ID": "01234567890",
+   "TOKEN": "ABCDEFGHIJKLMNOPRSTUVYZWX",
+   "MONGODB_TOKEN": "ABCDEFGHIJKLMNOPRSTUVYZWX",
+
+   "OWNER": "0123456789",
+   "SUPPORT_SERVER": "01234567890",
+   "SUPPORT_INVITE": "https://discord.gg/abcde",
+   "UPTİME_CHANNEL": "01234567890",
+
+   "DEVELOPMENT": "true",
+   "THEME_COLOR": "4ca74c",
+  }
+  ```
+-  Son olarak **Save** butonuna basıp bu işlemi bitirin. Artık kodumuz kullanıma hazır.
+ 
 ## Kullanım
 
 | Komut | Tip     | Açıklama                |
