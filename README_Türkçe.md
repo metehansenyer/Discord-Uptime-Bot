@@ -2,6 +2,17 @@
 
 Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
 
+# İçerikler
+
+- [Yükleme](./README_Türkçe.md#y%C3%BCkleme)
+  - [Discord](./README_Türkçe.md#discord)
+  - [MongoDB](./README_Türkçe.md#mongodb)
+  - [Replit](./README_Türkçe.md#replit-veya-eski-ad%C4%B1yla-replit)
+- [Çalıştırma](./README_Türkçe.md#%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
+  - [Run](./README_Türkçe.md#alaaddinin-sihirli-lambas%C4%B1)
+  - [Uyanık Tutma](./README_Türkçe.md#botu-uyan%C4%B1k-tutma)
+- [Kullanım](./README_Türkçe.md#kullan%C4%B1m)
+
 ## Yükleme
 
 Öncelikle bazı temel şeylere ihtiyacımız var.
@@ -20,7 +31,7 @@ Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
 - Uygulamamız oluştu. Şimdi açılan sayfada birkaç şeyi tamamlamamız lazım.
 
   ![Aşama 3](https://media.discordapp.net/attachments/851228914848366602/1156766945736130623/discord_3.png?ex=65162aab&is=6514d92b&hm=2275e8565527bddef05ab30d1642c3ab0d6ca069561c2f65788e65f990a5e760&=&width=1295&height=671)![Aşama 4](https://media.discordapp.net/attachments/851228914848366602/1156766946163961926/discord_4.png?ex=65162aab&is=6514d92b&hm=6f9e7c8d8cd8de54cce3e8ca1304b25c83b4744df13e19bd3906e2552f7df2aa&=&width=1292&height=671)
-- Öncelikle üstteki ilk görseldeki **APPLICATION ID**yi not edin, daha sonra ikinci görseldeki token kısmından **RESET TOKEN** tuşuna basıp bot için anahtarınızı alın ve onu da not edin. Son olarak ikinci görselde sağ alttaki üç butonu açık hale getirip ayarları kaydettiğinizde bu sitedeki işiniz bitecek. *Dilerseniz botun profil fotoğrafını ve ismini tekrar bu sayfadan düzenleyebilirsiniz.*
+- Öncelikle üstteki ilk görseldeki **APP ICON** kısmından botunuzun profil fotoğrafını belirleyin. Sonrasında **APPLICATION ID**yi not edin, daha sonra ikinci görseldeki token kısmından **RESET TOKEN** tuşuna basıp bot için anahtarınızı alın ve onu da not edin. Son olarak ikinci görselde sağ alttaki üç butonu açık hale getirip ayarları kaydetiğinizde bu sitedeki işiniz bitecek. **Botun profil fotoğrafını ayarlamayı unutmayın!**
 - Şimdi sırada botumuzu sunucumuza eklemek var. [Bu linke](https://discord.com/oauth2/authorize?client_id=BURAYA_APPLICATION_ID_GELECEK&scope=bot&permissions=8) sağ tık yapıp kopyalayın. Daha sonra tarayıcınıza yapıştırıp **BURAYA_APPLICATION_ID_GELECEK** yazan kısmı anlaşıldığı üzere botunuzdan aldığınız numara ile değiştirin ve siteye girin. Açılan pencereden botu eklemek istediğiniz sunucuyu seçerek işlemi tamamlayın. İşte bu kadar.
 
 ### MongoDB
@@ -76,7 +87,7 @@ Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
    "UPTİME_CHANNEL": "DISCORD_SERVER_CHANNEL_ID",
 
    "DEVELOPMENT": "true",
-   "THEME_COLOR": "4ca74c",
+   "THEME_COLOR": "4ca74c"
   }
   ```
   Örnek:
@@ -94,11 +105,25 @@ Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
    "UPTİME_CHANNEL": "01234567890",
 
    "DEVELOPMENT": "true",
-   "THEME_COLOR": "4ca74c",
+   "THEME_COLOR": "4ca74c"
   }
   ```
 -  Son olarak **Save** butonuna basıp bu işlemi bitirin. Artık kodumuz kullanıma hazır.
- 
+
+## Çalıştırma
+
+### Alaaddin'in Sihirli Lambası
+
+- Üç dilek hakkınızdan birini feda etmelisiniz.
+
+### Ya da Direkt Run :D
+
+  ![Aşama 10](https://media.discordapp.net/attachments/851228914848366602/1157108070720225281/replit_10.png?ex=6517685e&is=651616de&hm=b00d9bda5b869997a94797ea9aea394b23c5c9c83ed6fceeaf0b70767258c673&=&width=1353&height=671)![Aşama 11](https://media.discordapp.net/attachments/851228914848366602/1157108071219335188/replit_11.png?ex=6517685e&is=651616de&hm=7e6457f3a62e21d0eadc31cd57614f6b179ad10fc9c32106f602745423009f9d&=&width=1355&height=671)
+
+### Botu Uyanık Tutma
+
+Anlayacağınız üzere bu bot diğer botları ayakta tutuyor. Peki bunu kim tutacak? İnternette birçok uptime sitesi bulabilirsiniz lakin çoğu artık Glitch, Replit vb. yerlerde işlevsiz durumda. Şu anlık [Better Stack](https://betterstack.com/) platformunu değerlendiriyorum. Diğer alternatiflere göz atabilirsiniz.
+
 ## Kullanım
 
 | Komut | Tip     | Açıklama                |
