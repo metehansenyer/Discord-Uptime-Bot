@@ -1,5 +1,5 @@
 {
-    "name": "discord-uptime-bot",
+    "name": "discord-kiito-uptime-bot",
     "version": "1.0.0",
     "description": "[EN]A Discord Bot that keeps the URLs saved in the database awake. [TR]Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.",
     "main": "index.js",
