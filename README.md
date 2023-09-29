@@ -132,3 +132,5 @@ Anlayacağınız üzere bu bot diğer botları ayakta tutuyor. Peki bunu kim tut
 | `/uptime ekle` | `Yan Çizgi Komutu` | Uyanık tutmak için bir URL eklemenizi sağlar. |
 | `/uptime kaldır` | `Yan Çizgi Komutu` | Veritabanından bir URL silmenizi sağlar. |
 | `/uptime temizle` | `Yan Çizgi Komutu` | Veritabanına eklediğiniz tüm "URL"leri silmenizi sağlar. |
+
+https://github.com/metehansenyer/Discord-Uptime-Bot/assets/60943907/0758a846-930b-4823-b134-c8f97f337bdc
