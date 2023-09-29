@@ -4,14 +4,14 @@ Veritabanına kaydedilen URL'leri uyanık tutan bir Discord Bot Altyapısı.
 
 # İçerikler
 
-- [Yükleme](./README.md#yükleme)
-  - [Discord](./README.md#discord)
-  - [MongoDB](./README.md#mongodb)
-  - [Replit](./README.md#replit-veya-eski-adıyla-replit)
-- [Çalıştırma](./README.md#çalıştırma)
-  - [Run](./README.md#alaaddinin-sihirli-lambası)
-  - [Uyanık Tutma](./README.md#botu-uyanık-tutma)
-- [Kullanım](./README.md#kullanım)
+- [Yükleme](./#yükleme)
+  - [Discord](./#discord)
+  - [MongoDB](./#mongodb)
+  - [Replit](./#replit-veya-eski-adıyla-replit)
+- [Çalıştırma](./#çalıştırma)
+  - [Run](./#alaaddinin-sihirli-lambası)
+  - [Uyanık Tutma](./#botu-uyanık-tutma)
+- [Kullanım](./#kullanım)
 
 ## Yükleme
 
